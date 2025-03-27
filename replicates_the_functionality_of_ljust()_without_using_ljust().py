@@ -5,3 +5,6 @@ def custom_ljust(s, width):
     return s + ' ' * (width - len(s)) if len(s) < width else s
 
 # Get user input and prints result
+text = input("Enter a string: ")
+width = int(input("Enter the desired width: "))
+print(f"Modified: {custom_ljust(text, width)}")

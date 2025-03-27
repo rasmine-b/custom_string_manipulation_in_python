@@ -6,4 +6,8 @@ def custom_lstrip(s):
     while i < len(s) and s[i] == ' ':
         i += 1
     return s[i:]
+
 # Get user input and print output
+text = input("Enter a string: ")
+result = custom_lstrip(text)
+print(f"Modified:{result}")

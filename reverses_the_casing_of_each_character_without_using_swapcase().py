@@ -13,3 +13,5 @@ def custom_swapcase(s):
     return result
 
 # Get user input and prints result
+text = input("Enter a string: ")
+print(f"Modified: {custom_swapcase(text)}")

@@ -12,3 +12,6 @@ def custom_center(s, width):
     return ' ' * left_spaces + s + ' ' * right_spaces
 
 # Get user input and prints result
+text = input("Enter a string: ")
+width = int(input(f"Enter the width (minimum {len(text)}): "))
+print(f"Modified: {custom_center(text, width)}")

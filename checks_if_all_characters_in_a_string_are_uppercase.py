@@ -8,3 +8,8 @@ def custom_isupper(s):
     return True
 
 # Get user input and prints result
+text = input("Enter a string: ")
+if custom_isupper(text):
+    print("The string is fully uppercase.")
+else:
+    print("The string is not fully uppercase.")

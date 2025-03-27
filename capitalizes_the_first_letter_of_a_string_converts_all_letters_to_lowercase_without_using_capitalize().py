@@ -10,3 +10,5 @@ def custom_capitalize(s):
     return (chr(ord(first_char) - 32) if 'a' <= first_char <= 'z' else first_char) + remaining_chars.lower()
 
 # Get user input and prints result
+text = input("Enter a string: ")
+print(f"Modified: '{custom_capitalize(text)}'")

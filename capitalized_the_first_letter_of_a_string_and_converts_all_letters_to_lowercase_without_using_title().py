@@ -16,3 +16,5 @@ def custom_title(s):
     return ' '.join(result)  
 
 # Get user input and prints result
+text = input("Enter a string: ")
+print(f"Modified: {custom_title(text)}")

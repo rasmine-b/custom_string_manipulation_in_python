@@ -5,4 +5,8 @@ def custom_removeprefix(s, prefix):
     if s[:len(prefix)] == prefix:
         return s[len(prefix):]
     return s 
+
 # Get user input and prints result
+text = input("Enter a string: ")
+prefix = input("Enter the prefix to remove: ")
+print(f"Modified: {custom_removeprefix(text, prefix)}")

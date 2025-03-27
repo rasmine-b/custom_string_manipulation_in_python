@@ -1,0 +1,1 @@
+This project implements custom versions of common Python string functions without using built-in string methods like lstrip(), removeprefix(), lower(), etc. Each function is manually recreated to perform the same operation

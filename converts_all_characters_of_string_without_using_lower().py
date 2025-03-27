@@ -11,3 +11,5 @@ def custom_lower(s):
     return result
 
 # Get user input and prints result
+text = input("Enter a string: ")
+print(f"Modified: {custom_lower(text)}")

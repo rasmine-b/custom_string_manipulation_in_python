@@ -8,4 +8,11 @@ def custom_rindex(s, char):
     raise ValueError(f"'{char}' not found in string")
 
 # Get user input and prints result
+string = input("Enter a string: ")
+character = input("Enter the character to find: ")
+try:
+    position = custom_rindex(string, character)
+    print(f"The last occurrence of '{character}' is at index {position}.")
+except ValueError as e:
+    print(e)
 

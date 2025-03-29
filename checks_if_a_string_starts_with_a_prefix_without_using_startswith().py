@@ -5,3 +5,10 @@ def custom_startswith(s, prefix):
     return s[:len(prefix)] == prefix if len(prefix) <= len(s) else False
 
 # Get user input and prints result
+text = input("Enter a string: ")
+prefix = input("Enter the prefix to check: ")
+
+if custom_startswith(text, prefix):
+    print("The string starts with the given prefix.")
+else:
+    print("The string does NOT start with the given prefix.")

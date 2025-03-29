@@ -5,3 +5,7 @@ def custom_zfill(s, width):
     return '0' * (width - len(s)) + s if len(s) < width else s
 
 # Get user input and prints result
+text = input("Enter a string: ")
+width = int(input("Enter the total width: "))
+print(f"Modified: '{custom_zfill(text, width)}'")
+

@@ -8,3 +8,6 @@ def custom_rstrip(s):
     return s[:i + 1]
 
 # Get user input and prints result
+text = input("Enter a string: ")
+result = custom_rstrip(text)
+print(f"Modified: {result}")

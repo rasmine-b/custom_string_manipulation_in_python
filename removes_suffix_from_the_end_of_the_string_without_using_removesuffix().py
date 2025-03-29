@@ -7,3 +7,7 @@ def custom_removesuffix(s, suffix):
     return s
 
 # Get user input and prints result
+text = input("Enter a string: ")
+suffix = input("Enter the suffix to remove: ")
+result = custom_removesuffix(text, suffix)
+print(f"Modified: {result}")

@@ -11,4 +11,6 @@ def custom_upper(s):
     return result
 
 # Get user input and prints result
+text = input("Enter a string: ")
+print(f"Modified: {custom_upper(text)}")
 

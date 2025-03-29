@@ -8,3 +8,8 @@ def custom_islower(s):
     return True
 
 # Get user input and prints result
+text = input("Enter a string: ")
+if custom_islower(text):
+    print("The string is fully lowercase.")
+else:
+    print("The string is not fully lowercase.")

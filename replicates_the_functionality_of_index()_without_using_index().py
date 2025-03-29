@@ -8,3 +8,10 @@ def custom_index(s, char):
     raise ValueError(f"'{char}' not found in string")
 
 # Get user input and prints result
+string = input("Enter a string: ")
+character = input("Enter the character to find: ")
+try:
+    position = custom_index(string, character)
+    print(f"The first occurrence of '{character}' is at index {position}.")
+except ValueError as e:
+    print(e)
